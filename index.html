@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FocusHub</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-<p>FocusHub</p>
- <nav>
+    
+    <header class="header">
+<h1>FocusHub</h1>
+
+    </header>
+    <div class="layout">
+    <aside class="sidebar"> 
+        <div class="logo">
+            <img src="assets/logo.jpg" alt="FocusHub Logo">
+            <h2>FocusHub</h2>
+            <p>StayFocused,Achive.</p>
+        </div>
+        <nav>
      <ul>
         <li><a href="#study-tasks">study tasks</a></li>
         <li><a href="#todo-list">To-do list</a></li>
@@ -16,18 +27,15 @@
         <li><a href="#goal-reminder">goal reminder</a></li>
         <li><a href="#notes">notes</a></li>
      </ul>
-    </nav>
-    </header>
-    <div class="layout">
-    
-    <main>
+    </nav></aside>
+    <main class="main">
 <section id="study-tasks" >study tasks
     <form>
-        <label>subject : <input></input></label>
-        <label>Task    : <input></input></label>
-        <label>Time    : <input></input></label>
-        <label>statues : <select><option>done</option><option>not yet</option></select></label>
-        <label>Add Task: <button>add task</button></label>
+        <label>subject : <input></label>
+        <label>Task    : <input></label>
+        <label>Time    : <input></label>
+        <label>status : <select><option>done</option><option>not yet</option></select></label>
+        <label>Add Task: <button type="submit">add task</button></label>
     </form>
 
 </section>
@@ -39,6 +47,6 @@
    </main>
     </div>
     <footer>
-<p>copy rights</p>
+<p>&copy:2026 FocusHub</p>
     </footer>
 </html>
