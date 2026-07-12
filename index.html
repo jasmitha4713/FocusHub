@@ -15,7 +15,7 @@
     <div class="layout">
     <aside class="sidebar"> 
         <div class="logo">
-            <img src="assets/logo.jpg" alt="FocusHub Logo">
+            <img src="assets/c091068a-8f9d-4ba6-a585-a3e6d6898ce0.jpg" alt="FocusHub Logo">
             <h2>FocusHub</h2>
             <p>StayFocused,Achive.</p>
         </div>
@@ -29,21 +29,56 @@
      </ul>
     </nav></aside>
     <main class="main">
-<section id="study-tasks" >study tasks
+        <div class="grid">
+<section class="study-tasks" ><b>study tasks</b><br><br>
     <form>
-        <label>subject : <input></label>
-        <label>Task    : <input></label>
-        <label>Time    : <input></label>
-        <label>status : <select><option>done</option><option>not yet</option></select></label>
-        <label>Add Task: <button type="submit">add task</button></label>
+        <label class="label">subject : <input></label><br><br>
+        <label>Task     : <input></label><br><br>
+        <label>Time    : <input></label><br><br>
+        <label>status : <select><option>done</option><option>not yet</option></select></label><br><br>
+               <div class="add-task">  <button type="submit">add task</button></div><br><br>
+            </form>
+        </section>
     </form>
 
 </section>
-<section id="todo-list">to do</section>
-<section id="timer">timer</section>
-<section id="goal-reminder">goal reminder</section>
-<section id="notes">notes</section>
+<section class="study-tasks"><b>to-do-list<br><br></b>
+     <form>
+       <label>Task: <input></label><br><br>
+        <label>Deadline   : <input></label><br><br>
+        <label>Time    : <input></label><br><br>
+        <label>priority : <select><option>task 1</option><option>task 2</option></select></label><br><br>
+               <div class="add-task"> <button type="submit">add task</button></div><br><br>
+            </form>
+</section>
+<section class="study-tasks"><b>timer</b><br><br> <form>
+       <label><h3>25:00</h3></label><br><br>
+        <!-- <label>Deadline   : <input></label><br><br>
+        <label>Time    : <input></label><br><br>
+        <label>priority : <select><option>task 1</option><option>task 2</option></select></label><br><br> -->
+               <div class="start"> <button type="submit">add task</button></div><br>
+               <div class="pause"> <button type="submit">add task</button></div><br>
+               <div class="reset"> <button type="submit">add task</button></div><br>
+               </form></section>
+<section class="study-tasks"><b>goal reminder</b><br><br><form>
+        <label>goal: <input></label><br><br>
+        <label>Deadline    : <input type="datetime"></label><br><br>
+        <!-- <label>Time    : <input></label><br><br> -->
+        <label>priority : <select><option>done</option><option>not yet</option></select></label><br><br>
+               <div class="add-task">  <button type="submit">Save goal</button></div><br><br>
+            </form></section>
+<section class="study-tasks"><div class="notes"><b>notes</b><br><br>  <form>
+       <!-- <label>Task: <input></label><br><br> -->
+        
+        <!-- <label>Deadline   : <input></label><br><br>
+        <label>Time    : <input></label><br><br>
+        <label>priority : <select><option>task 1</option><option>task 2</option></select></label><br><br> -->
+        <textarea id="notes" placeholder="Write your notes here..."></textarea>
+        <div class="add-task"> <button type="submit">Save note</button></div><br>
+                <div class="add-task"> <button type="submit">clear</button></div>
+            </form></div></section>
 
+        </div>
    </main>
     </div>
     <footer>
