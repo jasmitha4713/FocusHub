@@ -172,7 +172,7 @@ gap: 2rem;
     border-radius: 30px;
     text-align: center;
 }
-button{
+.button{
     width: 90px;
     border-radius: 10px;
     background-color: #7C3AED;
@@ -182,12 +182,12 @@ button{
     height: 30px;
     font-size: 16px;
     font-weight: 600px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
 }
-button :hover{
+.button:hover{
     background-color: #6d28d9;
-    transition: 0.3s;
-    transform: scale(1.03);
-    /* box-shadow:100px; */
+    transform: scale(1.05) translateY(-5px);
 }
 h3{
     /* text-align: center; */
@@ -215,4 +215,14 @@ textarea{
 .label{
     font-size: 16px;
     
+}
+/* .pseudo-element::before{
+    display: inline-block;
+    content: "";
+    width: 5px;
+    height: 15px;
+    background-color: #1E293B;
+} */
+ .pseudo-element::before{
+ content: "📚";
 }
